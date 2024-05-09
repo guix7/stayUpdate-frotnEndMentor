@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main{
+    background-color: var(--charcoalGrey);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-color: var(--white);
+    padding: 20px 20px 20px 50px;
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+.formulario, .imagem{
+    width: 50%;
+    
+}
+
+.formulario{
+    
+
+}
+
+.formulario h1{
+    font-weight: 700;
+    font-size: 5.6rem;
+    padding-top: 100px;
+    color: var(--darkGrey);
+    
+}
+
+.formulario p{
+    font-size: 1.6rem;
+    width: 90%;
+    padding: 30px 0;
+    color: var(--darkGrey);
+    font-weight: 400;
+}
+.formulario ul{
+    
+}
+.formulario ul li{
+    font-size: 1.6rem;
+    margin: 10px 0;
+    color: var(--darkGrey);
+    display: flex;
+}
+
+.formulario ul li::before{
+    content: "";
+    background-image: url(../img/icon-list.svg);
+    background-size: cover;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+}
+
+.form p{
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: var(--darkGrey);
+}
+
+.form input{
+    display: block;
+    width: 85%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 20px;
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--darkGrey);
+    cursor: pointer;
+    transition: 0.9s ease; 
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to right,#FF5573, #FF6A3A);
+   
+}
+
+.imagem img{
+    width: 100%;
+}
+
+
