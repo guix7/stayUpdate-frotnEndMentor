@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-main{
+main, section{
     background-color: var(--charcoalGrey);
     height: 100vh;
     display: flex;
@@ -20,11 +20,6 @@ main{
 .formulario, .imagem{
     width: 50%;
     
-}
-
-.formulario{
-    
-
 }
 
 .formulario h1{
@@ -62,18 +57,13 @@ main{
     margin-right: 18px;
 }
 
-.form p{
-    padding-bottom: 10px;
-    font-weight: 700;
-    color: var(--darkGrey);
-}
+
 
 .form input{
     display: block;
     width: 85%;
     height: 5vh;
     border-radius: 5px;
-    border: 1px solid gray;
     padding: 10px;
 }
 
@@ -100,4 +90,81 @@ main{
     width: 100%;
 }
 
+.subtitulos{
+    display: flex;
+}
 
+.subtitulos p{
+    padding-bottom: 10px ;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.subtitulos p:last-child{
+    color: var(--tomato);
+}
+
+.container-2{
+    background-color: var(--white);
+    padding: 60px;
+    border-radius: 20px;
+    width: 35%;
+}
+
+.container-2 img {
+    padding-bottom: 20px;
+    
+}
+
+.container-2 h1{
+    font-size: 5em;
+    color: var(--darkGrey);
+    width: 70%;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+}
+
+.container-2 p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: var(--darkGrey);
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.container-2 span{
+    font-weight: 700;
+}
+
+.container-2 button{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--darkGrey);
+    cursor: pointer;
+    transition: 0.9s ease; 
+}
+
+.container-2 button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to right,#FF5573, #FF6A3A);
+}
+
+.validacao{
+    border: 1px solid hsl(4, 100%, 67%);
+    background-color: hsla(4, 100%, 67%, 0.318);
+    color: var(--tomato);
+}
+
+.validacao::placeholder{
+    color: var(--tomato);
+}
+
+.invisivel{
+    display: none;
+}
