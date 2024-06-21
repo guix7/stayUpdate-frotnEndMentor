@@ -9,7 +9,7 @@ botao.addEventListener('click', (event) =>{
     let mensagem = document.getElementById('sub')
     let valor = campo.value
 
-    if(valor.indexOf('@') === -1 && valor.length <= 5){
+    if(valor.indexOf('@') === -1 || valor.indexOf('.com') === -1 || valor.length <= 5 || valor.includes(' ')){
         mensagem.classList.remove('invisivel')
         campo.classList.add('validacao')
     }else{
