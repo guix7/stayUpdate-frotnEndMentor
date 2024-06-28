@@ -1,0 +1,83 @@
+@media(max-width: 780px){
+    .tela-1 .container{
+        height: 100vh;
+        width: 100vw;
+        border-radius: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .tela-1 .container .formulario h1{
+        padding: 0;
+    }
+    
+    .formulario{
+        width: 80%;
+    }
+
+    .tela-1 .container .imagem{
+       width: 100%;
+       
+        
+        
+    }
+}
+
+@media(max-width: 695px){
+    .tela-1 .container .formulario h1{
+        font-size: 3.5rem;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    
+
+    .tela-1 .container .formulario li,.tela-1 .container .formulario p {
+        font-size: 1.8rem;
+        
+    }
+
+    .tela-1 .container .formulario p{
+        padding: 15px;
+    }
+
+    
+
+    .formulario ul li::before{
+        content: "";
+        background-image: url(../img/icon-list.svg);
+        background-size: cover;
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 475px){
+    .tela-1 .container .formulario li,.tela-1 .container .formulario p {
+        font-size: 1.3rem;
+        
+    }
+
+    .tela-1 .container .formulario p{
+        padding: 8px;
+    }
+
+    .btn{
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 1.3rem;
+    }
+
+    .form input{
+        display: block;
+        width: 85%;
+        height: 6.5vh;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+
+}
