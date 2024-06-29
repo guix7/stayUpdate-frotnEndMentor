@@ -1,3 +1,47 @@
+@media(max-width: 1340px){
+    .container-2 h1{
+        font-size: 4.0rem ;
+    }
+}
+
+@media(max-width: 1140px){
+    .container-2 h1{
+        font-size: 3.0rem ;
+    }
+
+    .container-2 p, .container-2 span{
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 950px){
+    .container-2{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        position: relative;
+
+    }
+
+    .container-2 h1{
+        font-size: 5.0rem ;
+    }
+
+    .container-2 p{
+        width: 90%;
+        line-height: 40px;
+    }
+
+    .container-2 p, .container-2 span{
+        font-size: 2.5rem;
+    }
+
+    .container-2 .btn-2{
+        width: 50%;
+        
+    }
+}
+
 @media(max-width: 780px){
     .tela-1 .container{
         height: 100vh;
@@ -54,6 +98,39 @@
         height: 19px;
         margin-right: 10px;
     }
+
+    .container-2{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+       
+
+    }
+
+    .container-2 img{
+        width: 50px;
+    }
+
+    .container-2 h1{
+        font-size: 4.0rem ;
+    }
+
+    .container-2 p{
+        width: 90%;
+        line-height: 30px;
+    }
+
+    .container-2 p, .container-2 span{
+        font-size: 2.0rem;
+    }
+
+    .container-2 .btn-2{
+       width: 100%;
+       margin-top: 250px;
+        
+    }
 }
 
 @media(max-width: 475px){
@@ -80,6 +157,42 @@
         height: 6.5vh;
         border-radius: 5px;
         padding: 10px;
+    }
+
+    .container-2{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        
+       
+
+    }
+
+    .container-2 img{
+        width: 50px;
+        padding-top: 80px;
+    }
+
+    .container-2 h1{
+        font-size: 3.5rem ;
+    }
+
+    .container-2 p{
+        width: 100%;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+
+    .container-2 p, .container-2 span{
+        font-size: 1.8rem;
+    }
+
+    .container-2 .btn-2{
+       width: 100%;
+       margin-top: 150px;
+        
     }
 
 
